@@ -1,5 +1,7 @@
+tensorflow
 streamlit
 opencv-python-headless
+
 
 
 
