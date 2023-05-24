@@ -1,6 +1,6 @@
 tensorflow
 streamlit
-opencv-python-headles
+opencv-python-headless
 
 
 
