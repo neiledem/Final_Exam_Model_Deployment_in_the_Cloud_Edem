@@ -14,7 +14,7 @@ def main():
    
     @st.cache_resource
     def load_model():
-        model = tf.keras.models.load_model('weights-improvement-01-0.99.hdf5')
+        model = tf.keras.models.load_model('weights-improvement-01-0.99 (2).hdf5')
         return model
     
     def import_and_predict(image_data, model):
@@ -27,7 +27,7 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["DOG", "PANDA"]
+    class_names = ["Dog", "Panda"]
     
 
     file = st.file_uploader("Upload a photo of a Dog or a Panda from your device", type=["jpg", "png", "jpeg"])
