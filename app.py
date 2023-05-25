@@ -10,7 +10,7 @@ def main():
     st.write("Section: CPE32S2")
     st.write("Instructor: Engr. Roman Richard")
     st.title("Animal Type ( Dog/Panda)")
-    st.write("This web app classifyes cats and wolves images using a pre-trained convolutional neural network model.")
+    st.write("This web app classifies dogs and panda images using a pre-trained convolutional neural network model.")
    
     @st.cache_resource
     def load_model():
