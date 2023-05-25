@@ -27,7 +27,7 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["Dog", "Panda"]
+    class_names = ["DOG", "PANDA"]
     
 
     file = st.file_uploader("Upload a photo of a Dog or a Panda from your device", type=["jpg", "png", "jpeg"])
