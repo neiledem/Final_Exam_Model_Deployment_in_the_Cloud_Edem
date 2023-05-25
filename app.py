@@ -9,7 +9,7 @@ def main():
     st.write("Name: Neil Gabriel S. Edem")
     st.write("Section: CPE32S2")
     st.write("Instructor: Engr. Roman Richard")
-    st.title("Animal Type ( Cats/Wolves)")
+    st.title("Animal Type ( Dog/Panda)")
     st.write("This web app classifyes cats and wolves images using a pre-trained convolutional neural network model.")
    
     @st.cache_resource
@@ -27,10 +27,10 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["CATS", "WOLVES"]
+    class_names = ["Dog", "Panda"]
     
 
-    file = st.file_uploader("Upload a photo of a Cat or a Wolf from you device", type=["jpg", "png", "jpeg"])
+    file = st.file_uploader("Upload a photo of a Dog or a Panda from your device", type=["jpg", "png", "jpeg"])
 
     if file is None:
         st.text("Please upload an image file")
